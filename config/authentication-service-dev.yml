@@ -4,7 +4,7 @@ spring:
   #password , driver class will hel[p us to connect with the specicfic databasevendor]
     url: jdbc:mysql://localhost:3306/userdetaildevdb?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
     username: root
-    password: password1
+    password: password@1
     driver-class-name: com.mysql.cj.jdbc.Driver
   
 
