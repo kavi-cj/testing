@@ -33,6 +33,12 @@ eureka:
     
 management:
   endpoints:
+    health:
+      show-details: always
+  health:
+    db:
+      enabled: true
+  endpoints:    
     web:
       exposure:
-        include: refresh,health
+        include: "*"
