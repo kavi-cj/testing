@@ -45,5 +45,5 @@ management:
     env:
       enabled: true
   info:
-  app:
-    name: "STS"
+    app:
+      name: "STS"
