@@ -31,19 +31,19 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 management:
-endpoint:
+  endpoint:
+    health:
+      show-details: always
   health:
-    show-details: always
-health:
-  db:
-    enabled: true
-endpoints:
-  web:
-    exposure:
-      include: '*'
-info:
-  env:
-    enabled: true
-info:
-app:
-  name: "STS"
+    db:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+  info:
+  app:
+    name: "STS"
