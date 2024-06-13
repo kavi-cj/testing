@@ -32,7 +32,7 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     
 management:
-  endpoints:
+  endpoint:
     health:
       show-details: always
   health:
