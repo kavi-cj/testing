@@ -44,10 +44,3 @@ management:
     web:
       exposure:
         include: '*'    
-info:
-  app:
-    name: My STS
-    description: sample desc
-  company:       
-    name: my company
-    location: USA
