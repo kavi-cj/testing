@@ -50,4 +50,4 @@ info:
     description: sample desc
   company:       
     name: my company
-    oaction: USA
+    location: USA
