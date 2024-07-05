@@ -6,17 +6,7 @@ spring:
     password: pass@word1
     driver-class-name: com.mysql.cj.jdbc.Driver
 
-    mail:
-      host: smtp.gmail.com
-      port: 587
-      properties:
-        mail:
-          smtp:
-            auth: true
-            starttls:
-              enable: true
-
-  jpa:
+   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true # will print all auto generated sql queries .
